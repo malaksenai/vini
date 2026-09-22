@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: gray;
+    padding: 20px;
+}
+
+nav {
+    word-spacing: 10px;
+    text-decoration: none;
+}
+
+a {
+    color: black;
+}
+
+.maintext {
+    margin: 20px;
+    display: flex;
+    gap: 30px;
+}
+
+.imagem {
+    gap: 15px;
+    display: flex;
+}
+
+.imagem h1{
+    display: flex;
+    flex-direction: column;
+}
+
+.explore {
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.explore a {
+    background-color:darkorchid;
+    padding: 10px;
+    text-decoration: none;
+    margin: 5px;
+}
+
+.cards {
+    margin: 20px;
+    gap: 20px;
+    display: flex;
+}
+
+.cards article{
+    background-color: gainsboro;
+    flex-wrap: wrap;
+    padding: 20px;
+    flex: 1;
+}
+
+.beneficios {
+    padding: 30px 20px;
+    text-align: center;
+}
+
+.beneficios-container {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.beneficio {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 20px;
+    background-color: gainsboro;
+}
+
+.rodape {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 30px;
+    background-color: #333;
+    color: white;
+}
+
+.rodape div {
+    flex: 1;
+}
+
